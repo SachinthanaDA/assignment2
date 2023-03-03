@@ -1,0 +1,133 @@
+body {
+    height: 100%;
+    overflow: hidden;
+  }  
+.desktop {
+    background-color: rgba(255, 255, 255, 1);
+    padding: 86px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flex-wrapper-one {
+    background-color: rgba(38, 175, 126, 1);
+    padding: 20px 23px;
+    position: relative;
+    width: 100%;
+}
+
+.sign-in {
+    font-family: "Inter";
+    font-size: 48px;
+    font-weight: 900;
+    line-height: normal;
+    color: rgba(0, 0, 0, 1);
+    text-align: center;
+    position: absolute;
+    left: 23px;
+    top: 36px;
+}
+
+.log-out {
+    font-family: "Inter";
+    font-size: 48px;
+    font-weight: 900;
+    line-height: normal;
+    color: rgba(0, 0, 0, 1);
+    text-align: center;
+    position: absolute;
+    left: 23px;
+    top: 36px;
+}
+
+.flex-wrapper-two {
+    background-color: rgba(193, 219, 219, 1);
+    padding: 45px 123px 79px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+}
+
+.login {
+    font-family: "Inter";
+    font-size: 48px;
+    font-weight: 400;
+    line-height: normal;
+    color: rgba(0, 0, 0, 1);
+    text-align: center;
+    margin-bottom: 66px;
+}
+
+.flex-wrapper-four {
+    background-color: rgba(217, 217, 217, 1);
+    margin-bottom: 51px;
+    padding: 22px 32px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.flex-wrapper-five {
+    background-color: rgba(217, 217, 217, 1);
+    margin-bottom: 51px;
+    padding: 22px 32px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+button {
+    background-color: rgba(168, 111, 111, 1);
+    border-radius: 50px;
+    border: none;
+    color: white;
+    font-size: 24px;
+    font-weight: 900;
+    padding: 12px 24px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: rgb(170, 190, 24);
+    color: black;
+  }
+  
+  .user-wrapper {
+    position: relative;
+    bottom: 0px;
+    right: 0px;
+    display: flex;
+    align-items: center;
+    background-color: rgba(193, 219, 219, 1);
+    padding: 0px 0px;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+}
+  
+  .user-photo {
+    margin-right: 5px;
+  }
+  
+  .user-photo img {
+    width: 0px;
+    height: 0px;
+    border-radius: 0%;
+    -webkit-border-radius: 0%;
+    -moz-border-radius: 0%;
+    -ms-border-radius: 0%;
+    -o-border-radius: 0%;
+}
+  
+  .user-name p {
+    font-size: 24px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 1);
+    margin: 0;
+  }
+  
